@@ -2,8 +2,8 @@
 name: 🎆 Feature Request
 about: Request a feature in this project
 title: '[FEATURE]'
-labels: 'enhancement, untriaged'
-assignees: ''
+labels: 'enhancement'
+assignees: 'khoi16ngo'
 ---
 ### Is your feature request related to a problem?
 _A clear and concise description of what the problem is, e.g. I'm always frustrated when [...]._
