@@ -1,0 +1,27 @@
+# ---- Global ----
+.DS_Store
+Thumbs.db
+
+# ---- Vue 3 + Vite Frontend ----
+/frontend/node_modules
+/frontend/dist
+/frontend/.env.local
+/frontend/.vite
+
+# ---- Python FastAPI Backend ----
+/backend/__pycache__/
+/backend/venv/
+/backend/.env
+/backend/*.pyc
+
+# ---- Logs ----
+*.log
+
+# ---- OS Specific ----
+*.swp
+*.swo
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.code-workspace
