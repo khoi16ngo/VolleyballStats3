@@ -25,3 +25,16 @@ Thumbs.db
 .vscode/
 .idea/
 *.code-workspace
+
+# Data examples
+/backend/data/clean_stats/*
+!/backend/data/clean_stats/test.txt
+/backend/data/raw_stats/*
+!/backend/data/raw_stats/test.txt
+/backend/data/results/*
+!/backend/data/results/test.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
