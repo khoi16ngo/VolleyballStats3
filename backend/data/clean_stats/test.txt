@@ -1,5 +1,0 @@
-12 p 4  -- 12 = player number, p = action, 4 = quality
-5 l 4
-10 a 4
-9 s 3
-9 s 3

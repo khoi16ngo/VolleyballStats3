@@ -1,40 +1,43 @@
-# ---- Global ----
+# ================================
+# Global ignores (common tools)
+# ================================
 .DS_Store
 Thumbs.db
-
-# ---- Vue 3 + Vite Frontend ----
-/frontend/node_modules
-/frontend/dist
-/frontend/.env.local
-/frontend/.vite
-
-# ---- Python FastAPI Backend ----
-/backend/__pycache__/
-/backend/venv/
-/backend/.env
-/backend/*.pyc
-
-# ---- Logs ----
 *.log
-
-# ---- OS Specific ----
-*.swp
-*.swo
-
-# ---- IDEs ----
-.vscode/
-.idea/
-*.code-workspace
-
-# Data examples
-/backend/data/clean_stats/*
-!/backend/data/clean_stats/test.txt
-/backend/data/raw_stats/*
-!/backend/data/raw_stats/test.txt
-/backend/data/results/*
-!/backend/data/results/test.txt
-
-# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.env
+*.sqlite3
 __pycache__/
-*.py[cod]
-*$py.class
+.env.*
+.vscode/
+
+# ================================
+# Django (backend/)
+# ================================
+/backend/db.sqlite3
+/backend/__pycache__/
+/backend/**/__pycache__/
+/backend/staticfiles/
+/backend/media/
+
+# Optional: if you're using migrations
+/backend/**/migrations/__pycache__/
+/backend/**/migrations/*.pyc
+!/backend/**/migrations/__init__.py
+
+# ================================
+# Node/Vue frontend (volleyball-frontend/)
+# ================================
+/volleyball-frontend/node_modules/
+/volleyball-frontend/dist/
+/volleyball-frontend/.env.local
+/volleyball-frontend/.vitepress/
+/volleyball-frontend/.output/
+/volleyball-frontend/.cache/
+/volleyball-frontend/.turbo/
+
+# ================================
+# VSCode
+# ================================
+.vscode/
